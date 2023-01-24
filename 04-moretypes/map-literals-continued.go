@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-type Vertex7 struct {
+type Vertex struct {
 	Lat, Long float64
 }
 
-var m3 = map[string]Vertex7{
+var m3 = map[string]Vertex{
 	"Bell Labs": {
 		40.68433, -74.39967,
 	},

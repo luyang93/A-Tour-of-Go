@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-type Vertex6 struct {
+type Vertex struct {
 	Lat, Long float64
 }
 
-var m2 = map[string]Vertex6{
-	"Bell Labs": Vertex6{
+var m2 = map[string]Vertex{
+	"Bell Labs": Vertex{
 		40.68433, -74.39967,
 	},
-	"Google": Vertex6{
+	"Google": Vertex{
 		37.42202, -122.08408,
 	},
 }

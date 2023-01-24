@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func add2(x, y int) int {
+func add(x, y int) int {
 	return x + y
 }
 func main() {
-	fmt.Println(add2(42, 13))
+	fmt.Println(add(42, 13))
 }

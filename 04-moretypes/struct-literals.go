@@ -2,16 +2,16 @@ package main
 
 import "fmt"
 
-type Vertex4 struct {
+type Vertex struct {
 	X int
 	Y int
 }
 
 var (
-	v1 = Vertex4{1, 2}  // has type Vertex
-	v2 = Vertex4{X: 1}  // has type Vertex
-	v3 = Vertex4{}      // X:0 and Y:0
-	p  = &Vertex4{1, 2} // has type *Vertex
+	v1 = Vertex{1, 2}  // has type Vertex
+	v2 = Vertex{X: 1}  // has type Vertex
+	v3 = Vertex{}      // X:0 and Y:0
+	p  = &Vertex{1, 2} // has type *Vertex
 )
 
 func main() {
