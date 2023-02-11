@@ -1,4 +1,4 @@
-module gitlab.com/luyang93/a-tour-of-go
+module gitlab.com/luyang93/A-Tour-of-Go
 
 go 1.19
 
